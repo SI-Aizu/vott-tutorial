@@ -16,8 +16,8 @@ Tutorial for annotation with VoTT.
 
 - [Download VoTT](#download-vott)
   - [Install to macOS](#install-to-macos)
-  - [Install to macOS](#install-to-macos-1)
-  - [Install to macOS](#install-to-macos-2)
+  - [Install to Linux](#install-to-linux)
+  - [Install to Windows](#install-to-windows)
 - [Setup project](#setup-project)
 - [Annotate](#annotate)
 - [Export dataset](#export-dataset)
