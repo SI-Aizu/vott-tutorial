@@ -38,11 +38,11 @@ Download the VoTT app from the [releases page]. macOS, Linux, and Windows are su
 
 TBW
 
-### Install to macOS
+### Install to Linux
 
 TBW
 
-### Install to macOS
+### Install to Windows
 
 TBW
 
