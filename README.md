@@ -69,7 +69,7 @@ TBW
 
 ![](./images/project.jpg)
 
-### `Source Connection`
+### Source Connection
 
 1. Click `Add Connection`
 2. Fill `Display Name`
@@ -79,9 +79,18 @@ TBW
 4. Click `Save Connection`
 5. Set the connection to `Source Connection`
 
+```
+sample_project
+├── source
+│   ├── car_1.jpg
+│   ├── car_2.jpg
+│   └── car_3.jpg
+└── target
+```
+
 ![](./images/source_connection.jpg)
 
-### `Target Connection`
+### Target Connection
 
 1. Click `Add Connection`
 2. Fill `Display Name`
@@ -160,3 +169,9 @@ sample_project
     │   └── tf_label_map.pbtxt
     └── sample_project.vott
 ```
+
+
+## Open existing project
+
+1. Click `Open Local Project`
+2. Select VoTT project file (e.g. `sample_project.vott`)
