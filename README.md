@@ -23,6 +23,7 @@ Tutorial for annotation with [VoTT v2.1.0](https://github.com/microsoft/VoTT/rel
   - [`Target Connection`](#target-connection)
 - [Annotation](#annotation)
   - [Keyboard Shortcuts](#keyboard-shortcuts)
+  - [Mouse Controls](#mouse-controls)
   - [Tag ordering](#tag-ordering)
   - [Tag locking](#tag-locking)
 - [Check your progress](#check-your-progress)
@@ -100,17 +101,22 @@ You can also view [the video that shows a manner of annotation](https://github.c
 
 ### Keyboard Shortcuts
 
-VoTT allows a number of keyboard shortcuts to make it easier to keep one hand on the mouse while tagging.
-It allows most common shortcuts:
-
 | Shortcut key | Command |
 |---|---|
-| `Ctrl (Cmd) + C` | copy |
-| `Ctrl (Cmd) + X` | cut |
-| `Ctrl (Cmd) + V` | paste |
-| `Ctrl (Cmd) + A` | select all |
-| `Ctrl (Cmd) + Z` | undo |
-| `Ctrl (Cmd) + Shift + Z` | redo |
+| `W` or `ArrowUp` | Previous Asset |
+| `S` or `ArrowDown` | Next Asset |
+| `Ctrl + Arrowkey` | Move Region |
+| `Ctrl + Alt + Arrowkey` | Shrink Region |
+| `Ctrl + Shift + Arrowkey` | Expand Region |
+
+### Mouse Controls
+
+| Mode | Command |
+|---|---|
+| Two-point mode | Hold down `Ctrl` while creating a region |
+| Square mode | Hold down `Shift` while creating a region |
+| Multi-select mode | Hold down `Shift` while selecting regions |
+| Exclusive Tracking mode | `Ctrl + N` to block frame UI allowing a user to create a region on top of existing regions |
 
 ### Tag ordering
 
