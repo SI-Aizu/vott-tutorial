@@ -56,16 +56,69 @@ TBW
 
 ## Setup project
 
-TBW
+1. Open VoTT app
+2. Click `New Project`
+3. Enter `Display Name`
+
+![](./images/project.jpg)
+
+### `Source Connection`
+
+1. Click `Add Connection`
+2. Enter `Display Name`
+3. `Provider`
+   1. Select `Local File System`
+   2. Select your `source` folder
+4. Click `Save Connection`
+5. Set the connection to `Source Connection`
+
+![](./images/source_connection.jpg)
+
+### `Target Connection`
+
+1. Click `Add Connection`
+2. Enter `Display Name`
+3. `Provider`
+   1. Select `Local File System`
+   2. Select your `target` folder
+4. Click `Save Connection`
+5. Set the connection to `Target Connection`
+
+Finally, click `Save Project`
 
 
 
-## Annotate
+## Annotation
 
-TBW
+![](./images/tags_editor.jpg)
+
+
+
+## Check your progress
+
+![](./images/project_settings.jpg)
 
 
 
 ## Export dataset
 
-TBW
+![](./images/export_settings.jpg)
+![](./images/tags_editor_export.jpg)
+
+```
+sample_project
+├── source
+│   ├── car_1.jpg
+│   ├── car_2.jpg
+│   └── car_3.jpg
+└── target
+    ├── 32db62ab992c250ba2312fdc3babc444-asset.json
+    ├── 41e0a9f85a8d20040692c8390317d3ce-asset.json
+    ├── 7ce54d9571515f858d958f3a20cd3ff7-asset.json
+    ├── sample_project-TFRecords-export
+    │   ├── car_1.tfrecord
+    │   ├── car_2.tfrecord
+    │   ├── car_3.tfrecord
+    │   └── tf_label_map.pbtxt
+    └── sample_project.vott
+```
