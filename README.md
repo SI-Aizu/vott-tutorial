@@ -173,7 +173,8 @@ Tags can also be locked by combining Ctrl or Cmd and the tag hotkey, i.e. `Ctrl 
 ## Export dataset
 
 1. Go to **Export Settings** and set your exporting format.
-2. Click `Export button` on the tags editor.
+2. Click `Save Export Settings`.
+3. Click `Export button` on the tags editor.
 
 ![](./images/export_settings.jpg)
 ![](./images/tags_editor_export.jpg)
