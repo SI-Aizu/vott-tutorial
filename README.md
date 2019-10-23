@@ -99,7 +99,7 @@ Finally, click `Save Project`
 
 ## Check your progress
 
-![](./images/project_settings.jpg)
+![](./images/progress.jpg)
 
 
 
