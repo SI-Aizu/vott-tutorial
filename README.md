@@ -61,14 +61,14 @@ TBW
 
 1. Open VoTT app
 2. Click `New Project`
-3. Enter `Display Name`
+3. Fill `Display Name`
 
 ![](./images/project.jpg)
 
 ### `Source Connection`
 
 1. Click `Add Connection`
-2. Enter `Display Name`
+2. Fill `Display Name`
 3. `Provider`
    1. Select `Local File System`
    2. Select your `source` folder
@@ -80,7 +80,7 @@ TBW
 ### `Target Connection`
 
 1. Click `Add Connection`
-2. Enter `Display Name`
+2. Fill `Display Name`
 3. `Provider`
    1. Select `Local File System`
    2. Select your `target` folder
