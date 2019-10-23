@@ -19,8 +19,8 @@ Tutorial for annotation with [VoTT v2.1.0](https://github.com/microsoft/VoTT/rel
   - [Install to Linux](#install-to-linux)
   - [Install to Windows](#install-to-windows)
 - [Setup project](#setup-project)
-  - [`Source Connection`](#source-connection)
-  - [`Target Connection`](#target-connection)
+  - [Source Connection](#source-connection)
+  - [Target Connection](#target-connection)
 - [Annotation](#annotation)
   - [Keyboard Shortcuts](#keyboard-shortcuts)
   - [Mouse Controls](#mouse-controls)
@@ -28,6 +28,7 @@ Tutorial for annotation with [VoTT v2.1.0](https://github.com/microsoft/VoTT/rel
   - [Tag locking](#tag-locking)
 - [Check your progress](#check-your-progress)
 - [Export dataset](#export-dataset)
+- [Open existing project](#open-existing-project)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
