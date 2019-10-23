@@ -93,6 +93,8 @@ Finally, click `Save Project`
 
 ## Annotation
 
+You can also view [the video that shows a manner of annotation](https://github.com/SI-Aizu/vott-tutorial/releases/download/v0.1.0/sample.mp4).
+
 ![](./images/tags_editor.jpg)
 
 
