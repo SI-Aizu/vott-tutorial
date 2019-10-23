@@ -18,7 +18,7 @@ Tutorial for annotation with [VoTT v2.1.0](https://github.com/microsoft/VoTT/rel
   - [Install to macOS](#install-to-macos)
   - [Install to Linux](#install-to-linux)
   - [Install to Windows](#install-to-windows)
-- [Setup project](#setup-project)
+- [Setup a new project](#setup-a-new-project)
   - [Source Connection](#source-connection)
   - [Target Connection](#target-connection)
 - [Annotation](#annotation)
@@ -66,11 +66,13 @@ TBW
 
 
 
-## Setup project
+## Setup a new project
 
 You can use [vott-tutorial/sample_project] for your tutorial.
 
 [vott-tutorial/sample_project]: https://github.com/SI-Aizu/vott-tutorial/tree/master/sample_project
+
+The following is a project structure. Put your images in a `source` directory.
 
 ```
 sample_project
@@ -170,8 +172,13 @@ Tags can also be locked by combining Ctrl or Cmd and the tag hotkey, i.e. `Ctrl 
 
 ## Export dataset
 
+1. Go to **Export Settings** and set your exporting format.
+2. Click `Export button` on the tags editor.
+
 ![](./images/export_settings.jpg)
 ![](./images/tags_editor_export.jpg)
+
+The following is a project structure after exporting.
 
 ```
 sample_project
