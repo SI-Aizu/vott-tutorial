@@ -22,6 +22,9 @@ Tutorial for annotation with [VoTT v2.1.0](https://github.com/microsoft/VoTT/rel
   - [`Source Connection`](#source-connection)
   - [`Target Connection`](#target-connection)
 - [Annotation](#annotation)
+  - [Keyboard Shortcuts](#keyboard-shortcuts)
+  - [Tag ordering](#tag-ordering)
+  - [Tag locking](#tag-locking)
 - [Check your progress](#check-your-progress)
 - [Export dataset](#export-dataset)
 
@@ -94,6 +97,30 @@ Finally, click `Save Project`
 ## Annotation
 
 You can also view [the video that shows a manner of annotation](https://github.com/SI-Aizu/vott-tutorial/releases/download/v0.1.0/sample.mp4).
+
+### Keyboard Shortcuts
+
+VoTT allows a number of keyboard shortcuts to make it easier to keep one hand on the mouse while tagging.
+It allows most common shortcuts:
+
+| Shortcut key | Command |
+|---|---|
+| `Ctrl (Cmd) + C` | copy |
+| `Ctrl (Cmd) + X` | cut |
+| `Ctrl (Cmd) + V` | paste |
+| `Ctrl (Cmd) + A` | select all |
+| `Ctrl (Cmd) + Z` | undo |
+| `Ctrl (Cmd) + Shift + Z` | redo |
+
+### Tag ordering
+
+Hotkeys of 1 through 0 are assigned to the first ten tags.
+These can be reordered by using the up/down arrow icons in in the tag editor pane.
+
+### Tag locking
+
+A tag can be locked for repeated tagging using the lock icon at the top of the tag editor pane.
+Tags can also be locked by combining Ctrl or Cmd and the tag hotkey, i.e. `Ctrl + 2` would lock the second tag in the list.
 
 ![](./images/tags_editor.jpg)
 
