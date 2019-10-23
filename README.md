@@ -1,6 +1,6 @@
 ## VoTT Tutorial
 
-Tutorial for annotation with VoTT.
+Tutorial for annotation with [VoTT v2.1.0](https://github.com/microsoft/VoTT/releases/tag/v2.1.0)
 
 > [microsoft/VoTT - GitHub](https://github.com/microsoft/VoTT)
 >
