@@ -19,7 +19,10 @@ Tutorial for annotation with [VoTT v2.1.0](https://github.com/microsoft/VoTT/rel
   - [Install to Linux](#install-to-linux)
   - [Install to Windows](#install-to-windows)
 - [Setup project](#setup-project)
-- [Annotate](#annotate)
+  - [`Source Connection`](#source-connection)
+  - [`Target Connection`](#target-connection)
+- [Annotation](#annotation)
+- [Check your progress](#check-your-progress)
 - [Export dataset](#export-dataset)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
