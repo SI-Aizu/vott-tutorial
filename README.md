@@ -199,6 +199,10 @@ sample_project
 
 ## Open existing project
 
+You can use [vott-tutorial/sample_existing_project] as an example for opening local project.
+
+[vott-tutorial/sample_existing_project]: https://github.com/SI-Aizu/vott-tutorial/tree/master/sample_existing_project
+
 1. Click `Open Local Project`
 2. Select VoTT project file (e.g. `sample_project.vott`)
 

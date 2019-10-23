@@ -1,0 +1,81 @@
+{
+    "name": "sample_project",
+    "securityToken": "Sample project Token",
+    "sourceConnection": {
+        "name": "sample project source",
+        "providerType": "localFileSystemProxy",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiNGY5M2ZhYmU4MDkwMGMxNGYxN2Y1MDc4MDc0MjMzMDM3YTVlZDI3YmUyMmU0YzYzMzc0NTFiMzAwYzdiZDE1MjA5NTY1NjJhNDc0NjVmOGM1ZDQyNGMzMTQxODIyYmYyMmRmYWNkZTJiNWQzMDA3MDMyYWVhNGQyOTA2ZjUzZTA5YTBiMTBjZGU1N2I3Nzk0OTE2MTJmMWE0OWEyNjAyNmNkYmM2N2IxZTVlZTU0MmIwNWFmYzc1MDEyMzI0NGI4ZDY4YmJiOWRmYzcwMTZkZGZkZTZkNDY0MmM4MmY1MzQiLCJpdiI6IjUyOGQ1ZDFhMzMyMGU4MzY2MDQxMDVjM2IxZTRlYTU4ZDA3OTI1NzFjZGNiYTg4YyJ9"
+        },
+        "id": "fC8rVp9DF"
+    },
+    "targetConnection": {
+        "name": "sample project target",
+        "providerType": "localFileSystemProxy",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiMWVmMTRiMjhhYWQ3ODAyMDM0ODkzMWRkMjAxNjNhYThkYTMyODY5ODU0YmU2MzdlZjhjMmNmNDlmMjI0MjdjOTExNzFjNmEwN2VkMjFiNjhjNTNmMWY0YWM4MjgwZTQwN2U1MjkxNzUzNWI5NmVkMTRhYzFhZDcxOWE2MTMyZWY5N2Y5ZjM3YWQ0OTdkZTJlYjIwMTc1MDExOWU5YmJmNzU2ZDRhZjE3OTliZWZkMTBlZjFhZDAyNjkwOGU2OWUwYjhmMGFhY2Y3MDZiYzMzMzI0NWVkNWY1YmE3MjRiZDQiLCJpdiI6ImFiYjJiOTRmMmU3ZGU2ZTQ1N2ZlZmE3MzkxNzA3ZWMwNGZlM2Y3MzQ2ZmVjZWM3YyJ9"
+        },
+        "id": "nHwUVJpsD"
+    },
+    "videoSettings": {
+        "frameExtractionRate": 15
+    },
+    "tags": [
+        {
+            "name": "car",
+            "color": "#5db300"
+        }
+    ],
+    "id": "E7ZCvKcpf",
+    "activeLearningSettings": {
+        "modelPathType": "coco",
+        "autoDetect": false,
+        "predictTag": true
+    },
+    "exportFormat": {
+        "providerType": "tensorFlowRecords",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiMGZiOTk4ZjQ3ODZjNjI0ZTM4ZjZkOTY2NjcxMTM5MGQyYmNjNjNkNmE5ZjE3Zjc3N2M3ZjkyODkyNjVlN2I0YyIsIml2IjoiNTYyZjMyOGIzMWZlZjkyMTYxYzg3NTZmYTZhY2EwMzFhMTY4ODRiZmEzZWEyMTM4In0="
+        }
+    },
+    "version": "2.1.0",
+    "lastVisitedAssetId": "8d3388b6ed24eb6981a237ff1f95f0ff",
+    "assets": {
+        "3cf00e96bdd8f2b89553fe2f9a93b283": {
+            "format": "jpg",
+            "id": "3cf00e96bdd8f2b89553fe2f9a93b283",
+            "name": "car_1.jpg",
+            "path": "file:/Users/iris/Documents/repos/github.com/SI-Aizu/vott-tutorial/sample_existing_project/source/car_1.jpg",
+            "size": {
+                "width": 1484,
+                "height": 965
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3dd4e04f52ab21ea4de7a08a76ba4c99": {
+            "format": "jpg",
+            "id": "3dd4e04f52ab21ea4de7a08a76ba4c99",
+            "name": "car_2.jpg",
+            "path": "file:/Users/iris/Documents/repos/github.com/SI-Aizu/vott-tutorial/sample_existing_project/source/car_2.jpg",
+            "size": {
+                "width": 708,
+                "height": 472
+            },
+            "state": 2,
+            "type": 1
+        },
+        "8d3388b6ed24eb6981a237ff1f95f0ff": {
+            "format": "jpg",
+            "id": "8d3388b6ed24eb6981a237ff1f95f0ff",
+            "name": "car_3.jpg",
+            "path": "file:/Users/iris/Documents/repos/github.com/SI-Aizu/vott-tutorial/sample_existing_project/source/car_3.jpg",
+            "size": {
+                "width": 1200,
+                "height": 800
+            },
+            "state": 2,
+            "type": 1
+        }
+    }
+}
