@@ -68,6 +68,19 @@ TBW
 
 ## Setup project
 
+You can use [vott-tutorial/sample_project] for your tutorial.
+
+[vott-tutorial/sample_project]: https://github.com/SI-Aizu/vott-tutorial/tree/master/sample_project
+
+```
+sample_project
+├── source
+│   ├── car_1.jpg
+│   ├── car_2.jpg
+│   └── car_3.jpg
+└── target
+```
+
 1. Open VoTT app
 2. Click `New Project`
 3. Fill `Display Name`
@@ -83,15 +96,6 @@ TBW
    2. Select your `source` folder
 4. Click `Save Connection`
 5. Set the connection to `Source Connection`
-
-```
-sample_project
-├── source
-│   ├── car_1.jpg
-│   ├── car_2.jpg
-│   └── car_3.jpg
-└── target
-```
 
 ![](./images/source_connection.jpg)
 
