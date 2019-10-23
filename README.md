@@ -60,6 +60,10 @@ TBW
 
 TBW
 
+<div align="right">
+  <a href="#table-of-contents">Back to TOC ☝️</a>
+</div>
+
 
 
 ## Setup project
@@ -103,6 +107,10 @@ sample_project
 
 Finally, click `Save Project`
 
+<div align="right">
+  <a href="#table-of-contents">Back to TOC ☝️</a>
+</div>
+
 
 
 ## Annotation
@@ -140,11 +148,19 @@ Tags can also be locked by combining Ctrl or Cmd and the tag hotkey, i.e. `Ctrl 
 
 ![](./images/tags_editor.jpg)
 
+<div align="right">
+  <a href="#table-of-contents">Back to TOC ☝️</a>
+</div>
+
 
 
 ## Check your progress
 
 ![](./images/progress.jpg)
+
+<div align="right">
+  <a href="#table-of-contents">Back to TOC ☝️</a>
+</div>
 
 
 
@@ -171,8 +187,17 @@ sample_project
     └── sample_project.vott
 ```
 
+<div align="right">
+  <a href="#table-of-contents">Back to TOC ☝️</a>
+</div>
+
+
 
 ## Open existing project
 
 1. Click `Open Local Project`
 2. Select VoTT project file (e.g. `sample_project.vott`)
+
+<div align="right">
+  <a href="#table-of-contents">Back to TOC ☝️</a>
+</div>
