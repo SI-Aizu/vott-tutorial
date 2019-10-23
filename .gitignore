@@ -1,2 +1,5 @@
 .DS_Store
 *~
+
+/sample_project/target/*
+!/sample_project/target/.gitkeep
