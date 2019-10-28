@@ -54,7 +54,10 @@ Download the VoTT app from the [releases page]. macOS, Linux, and Windows are su
 
 ### Install to Linux
 
-TBW
+```sh
+wget https://github.com/microsoft/VoTT/releases/download/v2.1.0/vott-2.1.0-linux.snap
+sudo snap install --dangerous ./vott-2.1.0-linux.snap
+```
 
 ### Install to Windows
 
