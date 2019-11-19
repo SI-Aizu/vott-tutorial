@@ -44,13 +44,14 @@ Download the VoTT app from the [releases page]. macOS, Linux, and Windows are su
 
 ### Install to macOS
 
-1. Download `vott-x.x.x-darwin.dmg`
-2. Double click the `dmg` file
-3. Drag and drop `vott.app` to `Applications` folder
-4. Close the window
-5. Eject and remove `dmg` file
-
-![](./images/install_macos.jpg)
+```sh
+export VOTT_VERSION="2.1.0"
+wget -q "https://github.com/microsoft/VoTT/releases/download/v${VOTT_VERSION}/vott-${VOTT_VERSION}-darwin.dmg"
+hdiutil mount "vott-${VOTT_VERSION}-darwin.dmg"
+cp -r "/Volumes/vott ${VOTT_VERSION}/vott.app" /Applications/
+hdiutil detach "/Volumes/vott ${VOTT_VERSION}"
+open -a vott.app
+```
 
 ### Install to Linux
 
