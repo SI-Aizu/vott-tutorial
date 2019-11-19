@@ -36,17 +36,15 @@ Tutorial for annotation with [VoTT v2.1.0](https://github.com/microsoft/VoTT/rel
 
 ## Download VoTT
 
-Download the VoTT app from the [releases page]. macOS, Linux, and Windows are supported.
+Go to [releases page] and check the latest version.
 
 [releases page]:https://github.com/microsoft/VoTT/releases
-
-![](./images/download.jpg)
 
 ### Install to macOS
 
 ```sh
 export VOTT_VERSION="2.1.0"
-wget -q "https://github.com/microsoft/VoTT/releases/download/v${VOTT_VERSION}/vott-${VOTT_VERSION}-darwin.dmg"
+wget "https://github.com/microsoft/VoTT/releases/download/v${VOTT_VERSION}/vott-${VOTT_VERSION}-darwin.dmg"
 hdiutil mount "vott-${VOTT_VERSION}-darwin.dmg"
 cp -r "/Volumes/vott ${VOTT_VERSION}/vott.app" /Applications/
 hdiutil detach "/Volumes/vott ${VOTT_VERSION}"
@@ -56,8 +54,9 @@ open -a vott.app
 ### Install to Linux
 
 ```sh
-wget https://github.com/microsoft/VoTT/releases/download/v2.1.0/vott-2.1.0-linux.snap
-sudo snap install --dangerous ./vott-2.1.0-linux.snap
+export VOTT_VERSION="2.1.0"
+wget "https://github.com/microsoft/VoTT/releases/download/v${VOTT_VERSION}/vott-${VOTT_VERSION}-linux.snap"
+sudo snap install --dangerous "./vott-${VOTT_VERSION}-linux.snap"
 ```
 
 ### Install to Windows
