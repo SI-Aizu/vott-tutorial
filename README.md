@@ -1,6 +1,6 @@
 ## VoTT Tutorial
 
-Tutorial for annotation with [VoTT v2.1.0](https://github.com/microsoft/VoTT/releases/tag/v2.1.0)
+Tutorial for annotation with [VoTT v2.2.0](https://github.com/microsoft/VoTT/releases/tag/v2.2.0)
 
 > [microsoft/VoTT - GitHub](https://github.com/microsoft/VoTT)
 >
@@ -38,7 +38,7 @@ Tutorial for annotation with [VoTT v2.1.0](https://github.com/microsoft/VoTT/rel
 
 Go to [releases page] and check the latest version.
 
-[releases page]:https://github.com/microsoft/VoTT/releases
+[releases page]: https://github.com/microsoft/VoTT/releases
 
 ### Install to macOS
 
