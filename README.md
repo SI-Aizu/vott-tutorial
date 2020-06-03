@@ -43,7 +43,7 @@ Go to [releases page] and check the latest version.
 ### Install to macOS
 
 ```sh
-export VOTT_VERSION="2.1.0"
+export VOTT_VERSION="2.2.0"
 wget "https://github.com/microsoft/VoTT/releases/download/v${VOTT_VERSION}/vott-${VOTT_VERSION}-darwin.dmg"
 hdiutil mount "vott-${VOTT_VERSION}-darwin.dmg"
 cp -r "/Volumes/vott ${VOTT_VERSION}/vott.app" /Applications/
@@ -54,7 +54,7 @@ open -a vott.app
 ### Install to Linux
 
 ```sh
-export VOTT_VERSION="2.1.0"
+export VOTT_VERSION="2.2.0"
 wget "https://github.com/microsoft/VoTT/releases/download/v${VOTT_VERSION}/vott-${VOTT_VERSION}-linux.snap"
 sudo snap install --dangerous "./vott-${VOTT_VERSION}-linux.snap"
 ```
